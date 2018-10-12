@@ -13,5 +13,8 @@ Response: 200 OK
 
 -when John's birthday is in 5 days:
 {"message": "Hello, John! Your birthday is in 5 days"}
+
 -when John's birthday is today:
 {"message": "Hello,John! Happy birthday!"}
+
+#############################################################################################################
