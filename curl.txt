@@ -1,0 +1,1 @@
+curl -H "Content-type: text/plain" -X PUT http://127.0.0.1:80/hello/mihai -d '{"message":"2010-01-01"}'
