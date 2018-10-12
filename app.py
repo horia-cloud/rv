@@ -1,7 +1,6 @@
 #!flask/bin/python
 from flask import Flask, jsonify, request, abort
 from datetime import datetime, timedelta, date
-#import datetime
 
 app = Flask(__name__)
 
@@ -14,7 +13,7 @@ tasks = [
     {
         'id': 2,
         'name': 'test',
-        'birthday': '2019-01-01', 
+        'birthday': '2015-01-01', 
     }
 ]
 
@@ -54,6 +53,7 @@ def hello_name(name_get):
           elif s==0:
              a="Hello %s! Happy birthday!" %nume2['name']
           return jsonify({'message': a}), 200
+    
 def search(name, people):
     return [element for element in people if element['name'] == name]
 
