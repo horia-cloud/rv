@@ -22,9 +22,6 @@ Response: 200 OK
 ###################################################################################################
 Infrastructure diagram:
 
-In order to view the infrastructure diagram download the .xml file 
-located in architecture folder and load it on https://draw.io
-
 ![alt text](https://github.com/horia-cloud/rv/blob/master/architecture/infrastructure%20diagram.jpg)
 
 ###################################################################################################
