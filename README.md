@@ -24,4 +24,8 @@ Infrastructure diagram:
 
 ![alt text](https://github.com/horia-cloud/rv/blob/master/architecture/infrastructure%20diagram.jpg)
 
+Note: the code describe the ideal case, when AWS Direct Connect is enabled on an account,
+in order to simplify things(avoid using a bastion server for connecting on the private subnet) 
+as DirectConnect is not available on my account - the terraform code will deploy the ec2 instance 
+in the public subnet and ALB and Autoscaling group will not be created
 ###################################################################################################
