@@ -22,9 +22,8 @@ Response: 200 OK
 ###################################################################################################
 Infrastructure diagram:
 
-The diagram can be loaded on draw.io
-
-
+In order to view the infrastructure diagram download the .xml file 
+located in architecture folder and load it on https://draw.io
 
 
 
