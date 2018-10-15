@@ -6,4 +6,6 @@ yum install -y docker git
 
 service docker start
 
-docker container run -p 80:8080 -d rv/rv-docker
+docker pull horiacloud/rv-docker
+
+docker run -it --rm --name rv horiacloud/rv-docker
