@@ -16,8 +16,3 @@ One big reason to use containers is the fact that pretty much all container orch
 
 Kubernetes with rolling updates:
 https://kubernetes.io/docs/tutorials/kubernetes-basics/update/update-intro/
-
-
-
-For demo purposes:
-docker rm -f my-service docker run -d --name my-service my_service:v2
