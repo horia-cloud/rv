@@ -36,6 +36,7 @@ Container will run at startup of the EC2 instance:
 
 
 BUILD Docker image: $ docker build -t rv .
+
 RUN docker image: $ docker run -it --name python-rv rv
 
 ###################################################################################################
