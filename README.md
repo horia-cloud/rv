@@ -33,6 +33,8 @@ in the public subnet and ALB and Autoscaling group will not be created
 Docker hub image horiacloud/rv-docker is an automated build image based on the git repo(rv-docker)
 
 Container will run at startup of the EC2 instance:
+
+
 BUILD Docker image: $ docker build -t rv .
 RUN docker image: $ docker run -it --name python-rv rv
 
