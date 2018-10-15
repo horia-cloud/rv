@@ -1,5 +1,5 @@
 On a high level the automated process looks something like this in pseudo-code:
-
+---
 trigger deployment  
 for_each instance  
   send shutdown signal
@@ -10,7 +10,7 @@ for_each instance
   wait for startup
   add to loadbalancer
 done
-
+---
 
 One big reason to use containers is the fact that pretty much all container orchestrators have a built-in process of rolling deployment.
 
