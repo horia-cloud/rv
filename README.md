@@ -29,3 +29,7 @@ in order to simplify things(avoid using a bastion server for connecting on the p
 as DirectConnect is not available on my account - the terraform code will deploy the ec2 instance 
 in the public subnet and ALB and Autoscaling group will not be created
 ###################################################################################################
+
+Docker hub image horiacloud/rv-docker is an automated build image based on the git repo(rv-docker)
+
+###################################################################################################
