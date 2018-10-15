@@ -30,7 +30,7 @@ as DirectConnect is not available on my account - the terraform code will deploy
 in the public subnet and ALB and Autoscaling group will not be created
 ###################################################################################################
 
-Docker hub image horiacloud/rv-docker is an automated build image based on the git repo(rv-docker)
+Docker hub image horiacloud/rv-docker is an automated build image based on the git repo(https://github.com/horiacloud/rv-docker)
 
 Container will run at startup of the EC2 instance:
 
