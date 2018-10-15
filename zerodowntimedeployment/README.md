@@ -13,3 +13,6 @@ done
 
 
 One big reason to use containers is the fact that pretty much all container orchestrators have a built-in process of rolling deployment.
+
+Kubernetes with rolling updates:
+https://kubernetes.io/docs/tutorials/kubernetes-basics/update/update-intro/
