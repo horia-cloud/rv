@@ -29,6 +29,7 @@ in order to simplify things(avoid using a bastion server for connecting on the p
 as DirectConnect is not available on my account - the terraform code will deploy the ec2 instance 
 in the public subnet and ALB and Autoscaling group will not be created
 ###################################################################################################
+Terraform:  
 
 Clone this repo on an box which has aws access to create a ec2 instances and read&write on s3. As a best practice an IAM role should be assigned to the box or use SAML api, Secret access keys should be used as last resort - not secure, just for testing
 
