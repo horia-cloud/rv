@@ -30,6 +30,21 @@ as DirectConnect is not available on my account - the terraform code will deploy
 in the public subnet and ALB and Autoscaling group will not be created
 ###################################################################################################
 
+Clone this repo on an box which has aws access to create a ec2 instances and read&write on s3. As a best practice an IAM role should be assigned to the box or use SAML api, Secret access keys should be used as last resort - not secure, just for testing
+
+Init, plan and run:
+terraform init
+
+terraform plan -out "rv.output"
+
+terraform apply "rv.output"
+
+It should create an EC2 instance and a SG(inbound:22,80 - outbound all) which will be attached to the EC2 instance.After the instance will be created it will run the "userdata.sh" which will install Docker,Git and it will start a container based on docker hub repo(rv-docker)
+
+Verify if "terraform.tfstate" has been uploaded in the s3 bucked specified earlier
+
+###################################################################################################
+
 Docker hub image horiacloud/rv-docker is an automated build image based on the git repo(https://github.com/horiacloud/rv-docker)
 
 Container will pull the image from Docker hub and run the container at startup of the EC2 instance:    
